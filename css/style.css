@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/**********************/
+/* CUSTOME CSS */
+/**********************/
+
+/* =================== */
+/* HEADER SECTION */
+/* =================== */
+.navbar {
+  background: #fff;
+}
+.navbar-brand {
+  font-size: 2rem;
+  color: black;
+  font-family: 'Lobster', cursive;
+}
+.navbar-light .navbar-toggler-icon {
+  background: #fff;
+}
+.fa-hamburger {
+  font-size: 30px;
+}
+.nav-link {
+  text-transform: uppercase;
+  color: black;
+  font-weight: 400;
+  margin: 0px 13px;
+  font-family: 'Rubik', sans-serif;
+}
+.nav-link:hover {
+  font-family: 'Rubik', sans-serif;
+  color: #ff325a !important;
+}
+.search-input {
+  width: 70%;
+  margin-right: -30px;
+  outline: none;
+  border-radius: 50px;
+  border: 1px solid #ff325a;
+  font-family: 'Rubik', sans-serif;
+}
+.button {
+  background: #ff325a;
+  color: #fff;
+  border-radius: 50px;
+  width: 60%;
+  outline: none;
+  font-weight: 700;
+}
+/* MAIN SECTION */
+.main-section {
+  background: url(../img/header_banner/banner.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+  background-position: center center;
+  font-family: 'Rubik', sans-serif;
+}
+.main-section h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.main-section .main-button {
+  background: #ff325a;
+  width: 25%;
+  color: #fff;
+  font-weight: 400;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+}
+.main-section .main-button:hover {
+  color: black;
+  font-weight: 400;
+}
+/* =================== */
+/* PRODUCT SECTION */
+/* =================== */
+.products .card {
+  background: #f6f9f9;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+.products .card:hover {
+  box-shadow: 2px 0px 21px -3px rgba(0, 0, 0, 0.81);
+  border-radius: 10px;
+  transition: 0.2s ease-in-out;
+}
+.click_more_button {
+  width: 100%;
+  background: #ff325a;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 35px;
+  font-weight: 600;
+}
+.click_more_button:hover {
+  color: black;
+}
+/* =================== */
+/* STORE SECTION */
+/* =================== */
+.store img{
+  max-width: 200px;
+  max-height: 150px;
+}
+.store .card {
+  max-width: 200px;
+  max-height: 400px;
+  background: #f6f9f9;
+  margin: 0 auto;
+  border: none;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+.store .card:hover {
+  box-shadow: 2px 0px 21px -3px rgba(0, 0, 0, 0.81);
+  border-radius: 10px;
+  transition: 0.2s ease-in-out;
+}
+/* =================== */
+/* APPLE BANNER SECTION */
+/* =================== */
+.apple_banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../img/red.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+}
+.apple_banner h1 {
+  font-family: 'Pacifico', cursive;
+  color: #fff;
+}
+.apple_banner h6 {
+  color: #fff;
+}
+.apple_banner .more_button {
+  width: 35%;
+  background: #ff325a;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 35px;
+  font-weight: 600;
+}
+.apple_banner .more_button:hover {
+  color: black;
+}
+
+/* =================== */
+/* CONTACT SECTION */
+/* =================== */
+.contact h6{
+  color: gray;
+  font-weight: bold;
+}
+.contact .submit-btn {
+  width: 35%;
+  background: #ff325a;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 35px;
+  font-weight: 600;
+}
+.contact .submit-btn:hover {
+  color: black;
+}
+
+/* =================== */
+/* FOOTER SECTION */
+/* =================== */
+
+.footer {
+  background: black;
+  color: white;
+}
+.footer .footer-input {
+  height: 45px;
+  width: 55%;
+  border: 2px solid #fff;
+  background: black;
+  color: white;
+  margin-top: 20px;
+  font-weight: 600;
+  padding: 0 5px;
+}
+.footer .footer-btn {
+  height: 45px;
+  width: 100px;
+  background: #fff;
+  margin-left: -10px;
+  outline: none;
+  border: none;
+  border: 2px solid #fff;
+  outline: none;
+}
+.footer .footer-btn:hover {
+  background: black;
+  color: white;
+  transition: 0.2s ease-in-out;
+}
+.footer h5 {
+  margin: 30px 0px;
+  color: #ff325a;
+}
+.footer p {
+  font-size: 14px;
+  margin: 0;
+}
+.footer .icon {
+  font-size: 30px;
+  cursor: pointer;
+}
+.footer .facebook:hover {
+  color: #0b86ee;
+  transition: 0.2s ease-in-out;
+}
+.footer .instagram:hover {
+  color: #ef4668;
+  transition: 0.2s ease-in-out;
+}
+
+.footer .twitter:hover {
+  color: #5da9dd;
+  transition: 0.2s ease-in-out;
+}
+
+.footer .google:hover {
+  color: #e83d38;
+  transition: 0.2s ease-in-out;
+}
